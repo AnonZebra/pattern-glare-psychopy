@@ -99,7 +99,7 @@
       <CodeComponent name="code_trial">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="# changing the pattern texture resolution 'manually' because&amp;#10;# the highest resolution by default in the PsychoPy Builder View&amp;#10;# is 512&amp;#10;grating_trial.texRes = 2048&amp;#10;&amp;#10;# form lists of stimuli specifications&amp;#10;# grating phase&amp;#10;grating_phases = [0, 0.5, 0.5]&amp;#10;# grating spatial frequency&amp;#10;grating_sfs = [0.27, 3, 11]&amp;#10;&amp;#10;# start trial counter, for stepping through stimuli&amp;#10;# specifications&amp;#10;trial_counter = 0" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="# changing the pattern texture resolution 'manually' because&amp;#10;# the highest resolution by default in the PsychoPy Builder View&amp;#10;# is 512&amp;#10;grating_trial.texRes = 2048&amp;#10;&amp;#10;# form lists of stimuli specifications&amp;#10;# grating phase&amp;#10;grating_phases = [0, 0.5, 0.5]&amp;#10;# grating spatial frequency&amp;#10;grating_sfs = [0.27, 3, 11]&amp;#10;&amp;#10;# randomize order of grating phases/spatial frequencies&amp;#10;shuffle(grating_phases)&amp;#10;shuffle(grating_sfs)&amp;#10;&amp;#10;# start trial counter, for stepping through stimuli&amp;#10;# specifications&amp;#10;trial_counter = 0" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="grating_trial.phase = grating_phases[trial_counter]&amp;#10;&amp;#10;grating_trial.sf = grating_sfs[trial_counter]&amp;#10;&amp;#10;# hide the mouse cursor&amp;#10;win.mouseVisible = False" valType="extendedCode"/>
@@ -224,7 +224,7 @@
         <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
         <Param name="storeRating" updates="constant" val="True" valType="bool"/>
         <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
-        <Param name="styles" updates="constant" val="('rating',)" valType="fixedList"/>
+        <Param name="styles" updates="constant" val="['rating']" valType="fixedList"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="ticks" updates="constant" val="(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5)" valType="list"/>
         <Param name="units" updates="None" val="deg" valType="str"/>
