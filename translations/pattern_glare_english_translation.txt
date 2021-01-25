@@ -1,0 +1,94 @@
+### START TRANSLATION ###
+# introduction text 1:
+# "In this test, you will be shown patterns for a
+# few seconds each. Each pattern is followed by 
+# questions about it."
+INSTRUCTIONS_TXT_1 = (
+    "In this test, you will be shown patterns for a "
+    "few seconds each. Each pattern is followed by "
+    "questions about it."
+)
+
+
+# introduction text 2:
+# "To respond to the questions, use the mouse
+# to select all response choices that apply.
+# When you're done, click 'confirm' to proceed.
+# You might see a box for text input pop up.
+# If you do, please use the keyboard to type
+# your answer."
+INSTRUCTIONS_TXT_2 = (
+    "To respond to the questions, use the mouse "
+    "to select all response choices that apply. "
+    "When you're done, click 'confirm' to proceed. "
+    "You might see a box for text input pop up. "
+    "If you do, please use the keyboard to type "
+    "your answer."
+)
+
+# introduction text 3:
+# "Click the button below to continue."
+INSTRUCTIONS_TXT_3 = """
+Click the button below to continue.
+"""
+
+
+# "Start test"
+INTRO_START_TXT = "Start test"
+
+# "Which type(s) of experiences did you
+# have while looking at the pattern?"
+Q_EXPERIENCES_TXT = """
+Which type(s) of experiences did you have while looking at the pattern?
+"""
+
+
+# dictionary of response options
+# ("colors, bending of lines, 
+# blurring of lines, shimmer/flicker, 
+# fading, shadowy shapes, 
+# other/specify")
+Q_EXPERIENCES_DICT = {
+    'colors': 'colors',
+    'bend_lines': 'bending of lines',
+    'blur_lines': 'blurring of lines',
+    'flicker': 'shimmer/flicker',
+    'fading': 'fading',
+    'shadowy': 'shadowy shapes',
+    'other': 'other/specify:'
+}
+
+# 'Which, if any, color(s) did you experience while
+# looking at the pattern?'
+Q_COLOR_TXT = """
+Which color(s) did you experience while looking at the pattern?
+"""
+
+# dictionary of response color names
+Q_COLORS_DICT = {
+    'yellow': 'yellow',
+    'red': 'red',
+    'green': 'green',
+    'blue': 'blue',
+    'purple': 'purple',
+    'pink': 'pink',
+    'brown': 'brown',
+    'orange': 'orange'
+}
+
+# "How (un)comfortable did you find the
+# pattern?"
+Q_DISCOMFORT_TXT = """
+How (un)comfortable did you find the pattern?
+"""
+
+# confirmation button text
+# 'Confirm'
+CONFIRM_TXT = 'Confirm'
+
+# end text
+# "Thank you! Please wait until the researcher comes
+# to help you."
+END_TXT = "Thank you! Please wait until the researcher comes to help you."
+
+### END TRANSLATION ###
