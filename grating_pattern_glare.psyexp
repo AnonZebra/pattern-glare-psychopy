@@ -35,7 +35,7 @@
   <Routines>
     <Routine name="experiment_setup">
       <CodeComponent name="code_setup">
-        <Param name="Before Experiment" updates="constant" val="### START SET EXPERIMENT CONSTANTS ###&amp;#10;# (all sizes/coordinates are in degrees)&amp;#10;# diameter of grating stimulus&amp;#10;GRATING_DIAMETER = 13.77&amp;#10;# y coordinate of grating stimulus midpoint&amp;#10;GRATING_MIDPOINT_Y = 0&amp;#10;# diameter of grating center small circle&amp;#10;SMALL_CIRCLE_DIAMETER = 0.2/13.77 * GRATING_DIAMETER&amp;#10;# duration for which stimulus should be shown&amp;#10;SHOW_DUR = 5&amp;#10;&amp;#10;# mouse start position coordinates&amp;#10;# (eg '(0, 0)' means that the mouse cursor is&amp;#10;# moved to the center of the screen at beginning&amp;#10;# of every question routine&amp;#10;MOUSE_START_POS = (0, 0)&amp;#10;&amp;#10;&amp;#10;# text regular size&amp;#10;TXT_SIZE = 1.2&amp;#10;# text wrap width&amp;#10;TXT_WRAP_WIDTH = 30&amp;#10;# text neutral color&amp;#10;TXT_NEUTRAL_COL = [1, 1, 1]&amp;#10;&amp;#10;# confirmation button y coordinate&amp;#10;CONFIRM_Y = -10&amp;#10;&amp;#10;# confirmation button width&amp;#10;CONFIRM_BTN_WIDTH = 4&amp;#10;CONFIRM_BTN_HEIGHT = 2&amp;#10;# confirmation text height&amp;#10;CONFIRM_TXT_HEIGHT = CONFIRM_BTN_HEIGHT * 0.5&amp;#10;&amp;#10;# question y coordinate&amp;#10;Q_Y = 8&amp;#10;&amp;#10;# opacity of neutral/selected ('highlighted') response choices&amp;#10;RESP_NEUTRAL_OPACITY = 0.9&amp;#10;RESP_SELECTED_OPACITY = 1&amp;#10;&amp;#10;# side length of response choices' &quot;check&quot; boxes&amp;#10;RESP_BOX_SIDE_LEN = 1&amp;#10;&amp;#10;# color of neutral/selected response choices' &quot;check&quot; boxes&amp;#10;RESP_BOX_NEUTRAL_COL = [0, 0, 0]&amp;#10;RESP_BOX_SELECTED_COL = [1, 1, 1]&amp;#10;&amp;#10;## BEGIN EXPERIENCE SECTION ##&amp;#10;# first response choice y coordinate&amp;#10;EXPERIENCE_RESP_Y = 5&amp;#10;# response choice font size&amp;#10;EXPERIENCE_RESP_TXT_SIZE = TXT_SIZE * 0.7&amp;#10;# y axis margin between response choices&amp;#10;EXPERIENCE_RESP_MARGIN = EXPERIENCE_RESP_TXT_SIZE * 2&amp;#10;&amp;#10;# x axis offset of response box from response text center&amp;#10;# (e. g. -6 means '6 degrees to the left of the middle of&amp;#10;# the response text')&amp;#10;EXPERIENCE_RESP_BOX_X_OFFSET = -15&amp;#10;&amp;#10;# 'other' response input box y coordinate&amp;#10;EXPERIENCE_INPUT_Y = -7.5&amp;#10;&amp;#10;## END EXPERIENCE SECTION ##&amp;#10;&amp;#10;## BEGIN COLOR SECTION ##&amp;#10;# first response choice y coordinate&amp;#10;COLOR_RESP_Y = 5&amp;#10;# response choice font size&amp;#10;COLOR_RESP_TXT_SIZE = TXT_SIZE * 0.8&amp;#10;# y axis margin between response choices&amp;#10;COLOR_RESP_MARGIN = COLOR_RESP_TXT_SIZE * 1.5&amp;#10;&amp;#10;# x axis offset of response box from response text center&amp;#10;# (e. g. -6 means '6 degrees to the left of the middle of&amp;#10;# the response text')&amp;#10;COLOR_RESP_BOX_X_OFFSET = -3&amp;#10;&amp;#10;## END COLOR SECTION ##&amp;#10;&amp;#10;## BEGIN DISCOMFORT SECTION ##&amp;#10;&amp;#10;&amp;#10;# width of participant response slider&amp;#10;SLIDER_WIDTH = 24&amp;#10;SLIDER_HEIGHT = 1.5&amp;#10;&amp;#10;# slider y coordinate&amp;#10;SLIDER_Y = -1&amp;#10;&amp;#10;## END DISCOMFORT SECTION ##&amp;#10;&amp;#10;## BEGIN DISCOMFORT SECTION ##&amp;#10;# question text y coordinate&amp;#10;Q_DISCOMFORT_Y = 5&amp;#10;&amp;#10;# width of participant response slider&amp;#10;SLIDER_WIDTH = 24&amp;#10;SLIDER_HEIGHT = 1.5&amp;#10;&amp;#10;# slider y coordinate&amp;#10;SLIDER_Y = -1&amp;#10;&amp;#10;## END DISCOMFORT SECTION ##&amp;#10;&amp;#10;&amp;#10;### END SET EXPERIMENT CONSTANTS ###" valType="extendedCode"/>
+        <Param name="Before Experiment" updates="constant" val="### START SET EXPERIMENT CONSTANTS ###&amp;#10;# (all sizes/coordinates are in degrees)&amp;#10;# diameter of grating stimulus&amp;#10;GRATING_DIAMETER = 13.77&amp;#10;# y coordinate of grating stimulus midpoint&amp;#10;GRATING_MIDPOINT_Y = 0&amp;#10;# diameter of grating center small circle&amp;#10;SMALL_CIRCLE_DIAMETER = 0.2/13.77 * GRATING_DIAMETER&amp;#10;# duration for which stimulus should be shown&amp;#10;SHOW_DUR = 5&amp;#10;&amp;#10;# mouse start position coordinates&amp;#10;# (eg '(0, 0)' means that the mouse cursor is&amp;#10;# moved to the center of the screen at beginning&amp;#10;# of every question routine&amp;#10;MOUSE_START_POS = (0, 0)&amp;#10;&amp;#10;&amp;#10;# text regular size&amp;#10;TXT_SIZE = 1.2&amp;#10;# text wrap width&amp;#10;TXT_WRAP_WIDTH = 30&amp;#10;# text neutral color&amp;#10;TXT_NEUTRAL_COL = [1, 1, 1]&amp;#10;&amp;#10;# confirmation button y coordinate&amp;#10;CONFIRM_Y = -10&amp;#10;&amp;#10;# confirmation button width&amp;#10;CONFIRM_BTN_WIDTH = 4&amp;#10;CONFIRM_BTN_HEIGHT = 2&amp;#10;# confirmation text height&amp;#10;CONFIRM_TXT_HEIGHT = CONFIRM_BTN_HEIGHT * 0.5&amp;#10;# confirmation text color&amp;#10;CONFIRM_TXT_COL = [-1, -1, -1]&amp;#10;# confirmation text box background/fill color&amp;#10;CONFIRM_BOX_FILL_COL = [1, 1, 1]&amp;#10;# confirmation text box border/line color&amp;#10;CONFIRM_BOX_BORDER_COL = [-1, -1, -1]&amp;#10;&amp;#10;# question y coordinate&amp;#10;Q_Y = 8&amp;#10;&amp;#10;# opacity of neutral/selected ('highlighted') response choices&amp;#10;RESP_NEUTRAL_OPACITY = 0.9&amp;#10;RESP_SELECTED_OPACITY = 1&amp;#10;&amp;#10;# side length of response choices' &quot;check&quot; boxes&amp;#10;RESP_BOX_SIDE_LEN = 1&amp;#10;&amp;#10;# color of neutral/selected response choices' &quot;check&quot; boxes&amp;#10;RESP_BOX_NEUTRAL_COL = [0, 0, 0]&amp;#10;RESP_BOX_SELECTED_COL = [1, 1, 1]&amp;#10;&amp;#10;## BEGIN INSTRUCTIONS SECTION ##&amp;#10;# instructions text size&amp;#10;INSTRUCTIONS_TXT_SIZE = TXT_SIZE*0.7&amp;#10;&amp;#10;# 1st text y coordinate&amp;#10;INSTRUCTIONS_TXT_Y1 = 8&amp;#10;&amp;#10;# 2nd text y coordinate&amp;#10;INSTRUCTIONS_TXT_Y2 = 3&amp;#10;&amp;#10;# 3rd text y coordinate&amp;#10;INSTRUCTIONS_TXT_Y3 = -1&amp;#10;&amp;#10;## END INSTRUCTIONS SECTION ##&amp;#10;&amp;#10;## BEGIN EXPERIENCE SECTION ##&amp;#10;# first response choice y coordinate&amp;#10;EXPERIENCE_RESP_Y = 5&amp;#10;# response choice font size&amp;#10;EXPERIENCE_RESP_TXT_SIZE = TXT_SIZE * 0.7&amp;#10;# y axis margin between response choices&amp;#10;EXPERIENCE_RESP_MARGIN = EXPERIENCE_RESP_TXT_SIZE * 2&amp;#10;&amp;#10;# x axis offset of response box from response text center&amp;#10;# (e. g. -6 means '6 degrees to the left of the middle of&amp;#10;# the response text')&amp;#10;EXPERIENCE_RESP_BOX_X_OFFSET = -15&amp;#10;&amp;#10;# 'other' response input box y coordinate&amp;#10;EXPERIENCE_INPUT_Y = -7.5&amp;#10;&amp;#10;## END EXPERIENCE SECTION ##&amp;#10;&amp;#10;## BEGIN COLOR SECTION ##&amp;#10;# first response choice y coordinate&amp;#10;COLOR_RESP_Y = 5&amp;#10;# response choice font size&amp;#10;COLOR_RESP_TXT_SIZE = TXT_SIZE * 0.8&amp;#10;# y axis margin between response choices&amp;#10;COLOR_RESP_MARGIN = COLOR_RESP_TXT_SIZE * 1.5&amp;#10;&amp;#10;# x axis offset of response box from response text center&amp;#10;# (e. g. -6 means '6 degrees to the left of the middle of&amp;#10;# the response text')&amp;#10;COLOR_RESP_BOX_X_OFFSET = -3&amp;#10;&amp;#10;## END COLOR SECTION ##&amp;#10;&amp;#10;## BEGIN DISCOMFORT SECTION ##&amp;#10;&amp;#10;&amp;#10;# width of participant response slider&amp;#10;SLIDER_WIDTH = 24&amp;#10;SLIDER_HEIGHT = 1.5&amp;#10;&amp;#10;# slider y coordinate&amp;#10;SLIDER_Y = -1&amp;#10;&amp;#10;## END DISCOMFORT SECTION ##&amp;#10;&amp;#10;## BEGIN DISCOMFORT SECTION ##&amp;#10;# question text y coordinate&amp;#10;Q_DISCOMFORT_Y = 5&amp;#10;&amp;#10;# width of participant response slider&amp;#10;SLIDER_WIDTH = 24&amp;#10;SLIDER_HEIGHT = 1.5&amp;#10;&amp;#10;# slider y coordinate&amp;#10;SLIDER_Y = -1&amp;#10;&amp;#10;## END DISCOMFORT SECTION ##&amp;#10;&amp;#10;&amp;#10;### END SET EXPERIMENT CONSTANTS ###" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="GRATING_DIAMETER = 13.77;&amp;#10;GRATING_MIDPOINT_Y = 0;&amp;#10;SMALL_CIRCLE_DIAMETER = ((0.2 / 13.77) * GRATING_DIAMETER);&amp;#10;SHOW_DUR = 5;&amp;#10;TXT_SIZE = 2;&amp;#10;SLIDER_WIDTH = 24;&amp;#10;SLIDER_HEIGHT = 1.5;&amp;#10;SLIDER_Y = (- 1);&amp;#10;CONFIRM_Y = (SLIDER_Y - (SLIDER_HEIGHT * 3));&amp;#10;CONFIRM_BTN_WIDTH = 2.5;&amp;#10;CONFIRM_BTN_HEIGHT = 1.2;&amp;#10;CONFIRM_TXT_HEIGHT = (CONFIRM_BTN_HEIGHT * 0.5);&amp;#10;CONFIRM_TXT = &quot;Bekr\u00e4fta&quot;;&amp;#10;" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
@@ -52,9 +52,9 @@
         <Param name="name" updates="None" val="code_setup" valType="code"/>
       </CodeComponent>
       <CodeComponent name="code_translation">
-        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before Experiment" updates="constant" val="### START TRANSLATION ###&amp;#10;# introduction text 1:&amp;#10;# &quot;In this test, you will be shown patterns for a&amp;#10;# few seconds each. Each pattern is followed by &amp;#10;# questions about it.&quot;&amp;#10;INSTRUCTIONS_TXT_1 = (&amp;#10;    &quot;I det här testet kommer du att visas mönster i ett &quot;&amp;#10;    &quot;fåtal sekunder vardera. Varje mönster följs av ett &quot;&amp;#10;    &quot;antal frågor om det.&quot;&amp;#10;)&amp;#10;&amp;#10;# introduction text 2:&amp;#10;# &quot;To respond to the questions, use the mouse&amp;#10;# to select all response choices that apply.&amp;#10;# When you're done, click 'confirm' to proceed.&amp;#10;# You might see a box for text input pop up.&amp;#10;# If you do, please use the keyboard to type&amp;#10;# your answer.&quot;&amp;#10;INSTRUCTIONS_TXT_2 = (&amp;#10;    &quot;För att svara på frågorna, använd musen för att &quot;&amp;#10;    &quot;klicka på de svarsalternativ som stämmer för dig. &quot;&amp;#10;    &quot;När du är färdig, klicka 'bekräfta' för att fortsätta. &quot;&amp;#10;    &quot;Du kanske kommer att se en ruta för textinmatning &quot;&amp;#10;    &quot;komma upp. Om du gör det, använd tangentbordet för &quot;&amp;#10;    &quot;att skriva in ditt svar.&quot;&amp;#10;)&amp;#10;&amp;#10;# introduction text 3:&amp;#10;# &quot;Click the button below to continue.&quot;&amp;#10;INSTRUCTIONS_TXT_3 = &quot;&quot;&quot;&amp;#10;Klicka på knappen nedanför för att fortsätta.&amp;#10;&quot;&quot;&quot;&amp;#10;&amp;#10;# &quot;Start test&quot;&amp;#10;INTRO_START_TXT = &quot;Starta test&quot;&amp;#10;&amp;#10;# &quot;which type(s) of experiences did you&amp;#10;# have while looking at the pattern?&quot;&amp;#10;Q_EXPERIENCES_TXT = &quot;&quot;&quot;&amp;#10;Vilken/vilka typ(er) av upplevelser fick du när du tittade på mönstret?&amp;#10;&quot;&quot;&quot;&amp;#10;# dictionary of response options&amp;#10;# (&quot;colors, bending of lines, &amp;#10;# blurring of lines, shimmer/flicker, &amp;#10;# fading, shadowy shapes, &amp;#10;# other/specify&quot;)&amp;#10;Q_EXPERIENCES_DICT = {&amp;#10;    'colors': 'färg (annan/andra än svart och vit)',&amp;#10;    'bend_lines': 'linjer böjdes',&amp;#10;    'blur_lines': 'linjer blev suddiga',&amp;#10;    'flicker': 'skimmer/flimmer',&amp;#10;    'fading': 'hela eller del av mönstret tonade/bleknade bort',&amp;#10;    'shadowy': 'skuggiga former',&amp;#10;    'other': 'annat, beskriv:'&amp;#10;}&amp;#10;&amp;#10;# 'which, if any, color(s) did you experience while&amp;#10;# looking at the pattern?'&amp;#10;Q_COLOR_TXT = &quot;&quot;&quot;&amp;#10;Vilka färger upplevde du när du tittade på mönstret?&amp;#10;&quot;&quot;&quot;&amp;#10;# dictionary of response color names&amp;#10;Q_COLORS_DICT = {&amp;#10;    'yellow': 'gul',&amp;#10;    'red': 'röd',&amp;#10;    'green': 'grön',&amp;#10;    'blue': 'blå',&amp;#10;    'purple': 'lila',&amp;#10;    'pink': 'rosa',&amp;#10;    'brown': 'brun',&amp;#10;    'orange': 'orange'&amp;#10;}&amp;#10;&amp;#10;# &quot;How (un)comfortable did you find the&amp;#10;# pattern?&quot;&amp;#10;Q_DISCOMFORT_TXT = &quot;&quot;&quot;&amp;#10;Hur (o)behagligt upplevde du mönstret?&amp;#10;&quot;&quot;&quot;&amp;#10;&amp;#10;# 'Extremely uncomfortable'&amp;#10;DISCOMFORT_UNCOMFORT_TXT = 'Extremt obehagligt'&amp;#10;# 'Extremely comfortable'&amp;#10;DISCOMFORT_COMFORT_TXT = 'Extremt behagligt'&amp;#10;&amp;#10;# confirmation button text&amp;#10;# 'Confirm'&amp;#10;CONFIRM_TXT = 'Bekräfta'&amp;#10;&amp;#10;# end text&amp;#10;# &quot;Thank you! Please wait until the researcher comes&amp;#10;# to help you.&quot;&amp;#10;END_TXT = &quot;Tack! Vänligen vänta på att försöksledaren kommer och hjälper dig.&quot;&amp;#10;&amp;#10;### END TRANSLATION ###" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="### START TRANSLATION ###&amp;#10;# &quot;which type(s) of experiences did you&amp;#10;# have while looking at the pattern?&quot;&amp;#10;Q_EXPERIENCES_TXT = &quot;&quot;&quot;&amp;#10;Vilken/vilka typ(er) av upplevelser fick du när du tittade på mönstret?&amp;#10;&quot;&quot;&quot;&amp;#10;# dictionary of response options&amp;#10;# (&quot;colors, bending of lines, &amp;#10;# blurring of lines, shimmer/flicker, &amp;#10;# fading, shadowy shapes, &amp;#10;# other/specify&quot;)&amp;#10;Q_EXPERIENCES_DICT = {&amp;#10;    'colors': 'färg (annan/andra än svart och vit)',&amp;#10;    'bend_lines': 'linjer böjdes',&amp;#10;    'blur_lines': 'linjer blev suddiga',&amp;#10;    'flicker': 'skimmer/flimmer',&amp;#10;    'fading': 'hela eller del av mönstret tonade/bleknade bort',&amp;#10;    'shadowy': 'skuggiga former',&amp;#10;    'other': 'annat, beskriv:'&amp;#10;}&amp;#10;&amp;#10;# 'which, if any, color(s) did you experience while&amp;#10;# looking at the pattern?'&amp;#10;Q_COLOR_TXT = &quot;&quot;&quot;&amp;#10;Vilka färger upplevde du när du tittade på mönstret?&amp;#10;&quot;&quot;&quot;&amp;#10;# dictionary of response color names&amp;#10;Q_COLORS_DICT = {&amp;#10;    'yellow': 'gul',&amp;#10;    'red': 'röd',&amp;#10;    'green': 'grön',&amp;#10;    'blue': 'blå',&amp;#10;    'purple': 'lila',&amp;#10;    'pink': 'rosa',&amp;#10;    'brown': 'brun',&amp;#10;    'orange': 'orange'&amp;#10;}&amp;#10;&amp;#10;# &quot;How (un)comfortable did you find the&amp;#10;# pattern?&quot;&amp;#10;Q_DISCOMFORT_TXT = &quot;&quot;&quot;&amp;#10;Hur (o)behagligt upplevde du mönstret?&amp;#10;&quot;&quot;&quot;&amp;#10;&amp;#10;# confirmation button text&amp;#10;# 'Confirm'&amp;#10;CONFIRM_TXT = 'Bekräfta'&amp;#10;&amp;#10;### END TRANSLATION ###" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="Q_EXPERIENCES_TXT = &quot;\nVilken/vilka typ(er) av upplevelser fick du n\u00e4r du tittade p\u00e5 m\u00f6nstret?\n&quot;;&amp;#10;Q_DISCOMFORT_TXT = &quot;\nHur (o)behagligt upplevde du m\u00f6nstret?\n&quot;;&amp;#10;CONFIRM_TXT = &quot;Bekr\u00e4fta&quot;;&amp;#10;" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
@@ -209,7 +209,7 @@
         <Param name="font" updates="constant" val="HelveticaBold" valType="str"/>
         <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
         <Param name="granularity" updates="constant" val="0" valType="code"/>
-        <Param name="labels" updates="constant" val="('Extremt obehagligt','','','','','','','','','', 'Extremt behagligt')" valType="list"/>
+        <Param name="labels" updates="constant" val="(DISCOMFORT_UNCOMFORT_TXT,'','','','','','','','','', DISCOMFORT_COMFORT_TXT)" valType="list"/>
         <Param name="name" updates="None" val="slider_discomfort" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
@@ -224,7 +224,7 @@
         <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
         <Param name="storeRating" updates="constant" val="True" valType="bool"/>
         <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
-        <Param name="styles" updates="constant" val="['rating']" valType="fixedList"/>
+        <Param name="styles" updates="constant" val="('rating',)" valType="fixedList"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="ticks" updates="constant" val="(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5)" valType="list"/>
         <Param name="units" updates="None" val="deg" valType="str"/>
@@ -232,12 +232,12 @@
       <PolygonComponent name="rectangle_discomfort_confirm">
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColor" updates="constant" val="$CONFIRM_BOX_FILL_COL" valType="str"/>
         <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
-        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$CONFIRM_BOX_BORDER_COL" valType="str"/>
         <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="lineWidth" updates="constant" val="2" valType="code"/>
         <Param name="nVertices" updates="constant" val="4" valType="int"/>
         <Param name="name" updates="None" val="rectangle_discomfort_confirm" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
@@ -279,7 +279,7 @@
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <TextComponent name="text_q_discomfort">
-        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="color" updates="constant" val="$TXT_NEUTRAL_COL" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
@@ -307,7 +307,7 @@
       <CodeComponent name="code_color">
         <Param name="Before Experiment" updates="constant" val="# import necessary for forming ordered dictionary&amp;#10;# of color(key)-textstim(value) mappings&amp;#10;from collections import OrderedDict" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="# order of response alternatives&amp;#10;color_order = [&amp;#10;    'yellow',&amp;#10;    'red',&amp;#10;    'green',&amp;#10;    'blue',&amp;#10;    'purple',&amp;#10;    'pink',&amp;#10;    'brown',&amp;#10;    'orange'&amp;#10;]&amp;#10;&amp;#10;# color(key)-textstim(value) dictionary&amp;#10;color_resp_dict = OrderedDict()&amp;#10;&amp;#10;# fill up the dictionary with appropriate mappings&amp;#10;for i, color in enumerate(color_order):&amp;#10;    resp_text_stim = visual.TextStim(&amp;#10;        win=win, &amp;#10;        name=f'color_{color}',&amp;#10;        text=Q_COLORS_DICT[color],&amp;#10;        font='Arial',&amp;#10;        units='deg', &amp;#10;        pos=(0, COLOR_RESP_Y - i * COLOR_RESP_MARGIN), &amp;#10;        height=COLOR_RESP_TXT_SIZE, &amp;#10;        wrapWidth=TXT_WRAP_WIDTH, &amp;#10;        ori=0, &amp;#10;        color='white', &amp;#10;        colorSpace='rgb', &amp;#10;        opacity=RESP_NEUTRAL_OPACITY, &amp;#10;        languageStyle='LTR',&amp;#10;        depth=-5.0&amp;#10;    )&amp;#10;    resp_box_stim = visual.Rect(&amp;#10;        win=win, &amp;#10;        name='rectangle_color_confirm',&amp;#10;        units='deg', &amp;#10;        width=RESP_BOX_SIDE_LEN, &amp;#10;        height=RESP_BOX_SIDE_LEN,&amp;#10;        ori=0,&amp;#10;        pos=(COLOR_RESP_BOX_X_OFFSET, COLOR_RESP_Y - i * COLOR_RESP_MARGIN),&amp;#10;        lineWidth=1, &amp;#10;        lineColor=RESP_BOX_SELECTED_COL, &amp;#10;        lineColorSpace='rgb',&amp;#10;        fillColor=RESP_BOX_NEUTRAL_COL, &amp;#10;        fillColorSpace='rgb',&amp;#10;        opacity=1, &amp;#10;        depth=-2.0, &amp;#10;        interpolate=True&amp;#10;    )&amp;#10;    color_resp_dict[color] = (resp_box_stim, resp_text_stim)" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="# order of response alternatives&amp;#10;color_order = [&amp;#10;    'yellow',&amp;#10;    'red',&amp;#10;    'green',&amp;#10;    'blue',&amp;#10;    'purple',&amp;#10;    'pink',&amp;#10;    'brown',&amp;#10;    'orange'&amp;#10;]&amp;#10;&amp;#10;# color(key)-textstim(value) dictionary&amp;#10;color_resp_dict = OrderedDict()&amp;#10;&amp;#10;# fill up the dictionary with appropriate mappings&amp;#10;for i, color in enumerate(color_order):&amp;#10;    resp_text_stim = visual.TextStim(&amp;#10;        win=win, &amp;#10;        name=f'color_{color}',&amp;#10;        text=Q_COLORS_DICT[color],&amp;#10;        font='Arial',&amp;#10;        units='deg', &amp;#10;        pos=(0, COLOR_RESP_Y - i * COLOR_RESP_MARGIN), &amp;#10;        height=COLOR_RESP_TXT_SIZE, &amp;#10;        wrapWidth=TXT_WRAP_WIDTH, &amp;#10;        ori=0, &amp;#10;        color=TXT_NEUTRAL_COL, &amp;#10;        colorSpace='rgb', &amp;#10;        opacity=RESP_NEUTRAL_OPACITY, &amp;#10;        languageStyle='LTR',&amp;#10;        depth=-5.0&amp;#10;    )&amp;#10;    resp_box_stim = visual.Rect(&amp;#10;        win=win, &amp;#10;        name='rectangle_color_confirm',&amp;#10;        units='deg', &amp;#10;        width=RESP_BOX_SIDE_LEN, &amp;#10;        height=RESP_BOX_SIDE_LEN,&amp;#10;        ori=0,&amp;#10;        pos=(COLOR_RESP_BOX_X_OFFSET, COLOR_RESP_Y - i * COLOR_RESP_MARGIN),&amp;#10;        lineWidth=1, &amp;#10;        lineColor=RESP_BOX_SELECTED_COL, &amp;#10;        lineColorSpace='rgb',&amp;#10;        fillColor=RESP_BOX_NEUTRAL_COL, &amp;#10;        fillColorSpace='rgb',&amp;#10;        opacity=1, &amp;#10;        depth=-2.0, &amp;#10;        interpolate=True&amp;#10;    )&amp;#10;    color_resp_dict[color] = (resp_box_stim, resp_text_stim)" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="# move the mouse cursor to the starting position&amp;#10;mouse_color.setPos(MOUSE_START_POS)&amp;#10;&amp;#10;mouse_color.status == STARTED&amp;#10;&amp;#10;# list of (in English) colors that have been&amp;#10;# selected by the participant&amp;#10;answer_colors = []&amp;#10;&amp;#10;# reset font and opacity of response color textstims,&amp;#10;# and response box colors&amp;#10;for resp_key in color_resp_dict:&amp;#10;    resp_box, resp_text = color_resp_dict[resp_key]&amp;#10;    resp_text.opacity = RESP_NEUTRAL_OPACITY&amp;#10;    resp_text.font = 'Arial'&amp;#10;    resp_box.fillColor = RESP_BOX_NEUTRAL_COL" valType="extendedCode"/>
@@ -342,12 +342,12 @@
       <PolygonComponent name="rectangle_color_confirm">
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColor" updates="constant" val="$CONFIRM_BOX_FILL_COL" valType="str"/>
         <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
-        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$CONFIRM_BOX_BORDER_COL" valType="str"/>
         <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="lineWidth" updates="constant" val="2" valType="code"/>
         <Param name="nVertices" updates="constant" val="4" valType="int"/>
         <Param name="name" updates="None" val="rectangle_color_confirm" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
@@ -389,7 +389,7 @@
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <TextComponent name="text_q_color">
-        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="color" updates="constant" val="$TXT_NEUTRAL_COL" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
@@ -452,12 +452,12 @@
       <PolygonComponent name="rectangle_experience_confirm">
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColor" updates="constant" val="$CONFIRM_BOX_FILL_COL" valType="str"/>
         <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
-        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$CONFIRM_BOX_BORDER_COL" valType="str"/>
         <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="lineWidth" updates="constant" val="2" valType="code"/>
         <Param name="nVertices" updates="constant" val="4" valType="int"/>
         <Param name="name" updates="None" val="rectangle_experience_confirm" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
@@ -499,7 +499,7 @@
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <TextComponent name="text_q_experience">
-        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="color" updates="constant" val="$TXT_NEUTRAL_COL" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
@@ -523,9 +523,177 @@
         <Param name="wrapWidth" updates="constant" val="$TXT_WRAP_WIDTH" valType="code"/>
       </TextComponent>
     </Routine>
+    <Routine name="instructions">
+      <PolygonComponent name="rectangle_instructions_start">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$CONFIRM_BOX_FILL_COL" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$CONFIRM_BOX_BORDER_COL" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="2" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="rectangle_instructions_start" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, CONFIRM_Y)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(CONFIRM_BTN_WIDTH*1.5, CONFIRM_BTN_HEIGHT)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="8.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="deg" valType="str"/>
+      </PolygonComponent>
+      <TextComponent name="text_instructions_start">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="CONFIRM_TXT_HEIGHT" valType="code"/>
+        <Param name="name" updates="None" val="text_instructions_start" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, CONFIRM_Y)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="8.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="$INTRO_START_TXT" valType="extendedStr"/>
+        <Param name="units" updates="None" val="deg" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse_instructions">
+        <Param name="clickable" updates="constant" val="rectangle_instructions_start" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="mouse_instructions" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="never" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="8.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+      <TextComponent name="text_instructions_1">
+        <Param name="color" updates="constant" val="$TXT_NEUTRAL_COL" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="$INSTRUCTIONS_TXT_SIZE" valType="code"/>
+        <Param name="name" updates="None" val="text_instructions_1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, INSTRUCTIONS_TXT_Y1)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="$INSTRUCTIONS_TXT_1" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="$TXT_WRAP_WIDTH" valType="code"/>
+      </TextComponent>
+      <TextComponent name="text_instructions_2">
+        <Param name="color" updates="constant" val="$TXT_NEUTRAL_COL" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="$INSTRUCTIONS_TXT_SIZE" valType="code"/>
+        <Param name="name" updates="None" val="text_instructions_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, INSTRUCTIONS_TXT_Y2)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="$INSTRUCTIONS_TXT_2" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="$TXT_WRAP_WIDTH" valType="code"/>
+      </TextComponent>
+      <TextComponent name="text_instructions_3">
+        <Param name="color" updates="constant" val="$TXT_NEUTRAL_COL" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="$INSTRUCTIONS_TXT_SIZE" valType="code"/>
+        <Param name="name" updates="None" val="text_instructions_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, INSTRUCTIONS_TXT_Y3)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="8.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="$INSTRUCTIONS_TXT_3" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="$TXT_WRAP_WIDTH" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="text_end">
+        <Param name="color" updates="constant" val="$TXT_NEUTRAL_COL" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="$TXT_SIZE" valType="code"/>
+        <Param name="name" updates="None" val="text_end" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="$END_TXT" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="experiment_setup"/>
+    <Routine name="instructions"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
@@ -533,26 +701,15 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="nReps" updates="None" val="3" valType="code"/>
       <Param name="name" updates="None" val="trials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
-    <LoopInitiator loopType="TrialHandler" name="SKIPIT">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="" valType="str"/>
-      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
-      <Param name="isTrials" updates="None" val="True" valType="bool"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="0" valType="code"/>
-      <Param name="name" updates="None" val="SKIPIT" valType="code"/>
-      <Param name="random seed" updates="None" val="" valType="code"/>
-    </LoopInitiator>
     <Routine name="trial_show_pattern"/>
-    <LoopTerminator name="SKIPIT"/>
     <Routine name="trial_q_experience"/>
     <Routine name="trial_q_color"/>
     <Routine name="trial_q_discomfort"/>
     <LoopTerminator name="trials"/>
+    <Routine name="end"/>
   </Flow>
 </PsychoPy2experiment>
