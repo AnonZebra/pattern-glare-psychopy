@@ -3,7 +3,7 @@
 
 <img width="600px" alt="An example screenshot of experience question and response alternatives." src="./example_images/ex_exp_question.png">
 
-This is a PsychoPy implementation of the pattern glare test, including questions (in English) specifically targeted at participants with [synesthesia](https://en.wikipedia.org/wiki/Synesthesia). Participants are shown "gratings" and are then asked to describe their experiences (e.g. perceiving the grating as blurred or seeing non-black/white colors) while looking at the gratings. The gratings differ in how many black/white lines they are divided into. Three gratings of various spatial frequences (0.4, 3, 12.4) are presented one time each, with corresponding follow-up questions.
+This is a PsychoPy implementation of a Pattern Glare Test, including questions (in English) specifically targeted at participants with [synesthesia](https://en.wikipedia.org/wiki/Synesthesia). Participants are shown "gratings" and are then asked to describe their experiences (e.g. perceiving the grating as blurred or seeing non-black/white colors) while looking at the gratings. The gratings differ in how many black/white lines they are divided into. Three gratings of various spatial frequences (0.4, 3, 12.4) are presented one time each, with corresponding follow-up questions.
 
 ## Running the experiment
 1. Install [Standalone PsychoPy](https://www.psychopy.org/download.html).
