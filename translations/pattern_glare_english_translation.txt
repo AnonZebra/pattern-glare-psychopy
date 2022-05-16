@@ -82,6 +82,11 @@ Q_DISCOMFORT_TXT = """
 How (un)comfortable did you find the pattern?
 """
 
+# 'Extremely uncomfortable'
+DISCOMFORT_UNCOMFORT_TXT = 'Extremely uncomfortable'
+# 'Extremely comfortable'
+DISCOMFORT_COMFORT_TXT = 'Extremely comfortable'
+
 # confirmation button text
 # 'Confirm'
 CONFIRM_TXT = 'Confirm'

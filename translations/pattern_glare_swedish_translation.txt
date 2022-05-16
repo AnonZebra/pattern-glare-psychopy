@@ -77,6 +77,11 @@ Q_DISCOMFORT_TXT = """
 Hur (o)behagligt upplevde du mönstret?
 """
 
+# 'Extremely uncomfortable'
+DISCOMFORT_UNCOMFORT_TXT = 'Extremt obehagligt'
+# 'Extremely comfortable'
+DISCOMFORT_COMFORT_TXT = 'Extremt behagligt'
+
 # confirmation button text
 # 'Confirm'
 CONFIRM_TXT = 'Bekräfta'
